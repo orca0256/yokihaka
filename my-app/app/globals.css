@@ -58,4 +58,26 @@ body {
   .level-subtitle {
     @apply text-xl text-slate-600 dark:text-slate-300;
   }
+
+  /* ヒント開閉用スタイル */
+  .hint-toggle {
+    @apply mb-4;
+  }
+
+  .hint-toggle summary {
+    @apply cursor-pointer text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 flex items-center gap-2 select-none;
+    list-style: none;
+  }
+
+  .hint-toggle summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .hint-toggle summary svg {
+    @apply w-4 h-4 transition-transform;
+  }
+
+  .hint-toggle[open] summary svg {
+    @apply rotate-180;
+  }
 }

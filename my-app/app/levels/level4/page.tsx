@@ -61,11 +61,19 @@ export default function Level4() {
                 {challenge.description}
               </p>
 
-              <div className="hint-box">
-                <p className="text-sm text-slate-600 dark:text-slate-400">
-                  💡 ヒント: {challenge.hint}
-                </p>
-              </div>
+              <details className="hint-toggle">
+                <summary>
+                  💡 ヒントを表示
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="hint-box mt-2">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    {challenge.hint}
+                  </p>
+                </div>
+              </details>
 
               <button disabled className="disabled-button">
                 実行する（準備中）
