@@ -12,25 +12,25 @@ export default function Home() {
       id: 2,
       title: "Level 2",
       description: "WHERE, ORDER BY",
-      color: "bg-green-500 hover:bg-green-600",
+      color: "bg-blue-500 hover:bg-blue-600",
     },
     {
       id: 3,
       title: "Level 3",
       description: "集約関数, GROUP BY",
-      color: "bg-amber-500 hover:bg-amber-600",
+      color: "bg-blue-500 hover:bg-blue-600",
     },
     {
       id: 4,
       title: "Level 4",
       description: "JOIN",
-      color: "bg-red-500 hover:bg-red-600",
+      color: "bg-blue-500 hover:bg-blue-600",
     },
     {
       id: 5,
       title: "Level 5",
       description: "サブクエリと高度なクエリ",
-      color: "bg-purple-500 hover:bg-purple-600",
+      color: "bg-blue-500 hover:bg-blue-600",
     },
   ];
 
