@@ -3,5 +3,5 @@
 ###
 
 - SQL サーバー:Neon
-- CI/CD:Github Actions
-- 配置先:Github Pages
+
+- URL: https://yokihaka-1o8d.vercel.app/
